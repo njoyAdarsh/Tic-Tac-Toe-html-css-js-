@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+nav{
+    background-color: rgb(37, 9, 37);
+    color: white;
+    height: 65px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(245, 226, 245);
+}
+
+#gameOver {
+    display: none;
+    font-size: 30px;
+}
+
+#gameContainer {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square {
+    border-radius: 3%;
+    border: 3.5px solid rgb(72, 4, 80);
+    resize: none;
+    width: 30%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square p {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    
+    font-style: italic;
+    text-align: center;
+}
+
+.notClicked:hover {
+    background-color: rgb(250, 188, 215);
+}
